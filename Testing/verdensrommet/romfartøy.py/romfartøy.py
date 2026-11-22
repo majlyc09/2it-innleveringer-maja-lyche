@@ -4,6 +4,5 @@ class Romfartøy:
         self.hasstighet = hasstighet
         self.drivstoffmengde = drivstoffmengde
 
-    def presenter(self.navn )
-
-        
+    def presenter(self):
+        print()
