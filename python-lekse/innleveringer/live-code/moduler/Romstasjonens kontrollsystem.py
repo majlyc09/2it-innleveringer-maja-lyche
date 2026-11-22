@@ -7,17 +7,17 @@ class RomstasjonEnhet:
 
 class Robot(RomstasjonEnhet):
     def utfor_oppdrag(self):
-        print(f"🤖 Roboten {self.navn} reparerer solcellepanelene på utsiden av stasjonen.")
+        print(f" Roboten {self.navn} reparerer solcellepanelene på utsiden av stasjonen.")
 
 
 class Satellitt(RomstasjonEnhet):
     def utfor_oppdrag(self):
-        print(f"🛰️ Satellitten {self.navn} sender værdata og bilder tilbake til jorden.")
+        print(f" Satellitten {self.navn} sender værdata og bilder tilbake til jorden.")
 
 
 class Romsonde(RomstasjonEnhet):
     def utfor_oppdrag(self):
-        print(f"🔭 Romsonden {self.navn} flyr ut i verdensrommet for å måle stråling.")
+        print(f" Romsonden {self.navn} flyr ut i verdensrommet for å måle stråling.")
 
 enhet1 = Robot("R2-Fix")
 enhet2 = Robot("Arm-01")
